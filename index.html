@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌾 فروشگاه برنج شمال</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- فونت ایرانی -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Vazirmatn', sans-serif; background-color: #fffdf8; scroll-behavior: smooth; }
+        section { scroll-margin-top: 80px; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+<!-- هدر -->
+<header class="fixed top-0 w-full bg-gradient-to-r from-yellow-400 to-green-500 text-white shadow-lg z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+        <h1 class="text-2xl font-bold">🌾 برنج شمال</h1>
+        <nav class="space-x-6">
+            <a href="#home" class="hover:text-gray-200 font-semibold">خانه</a>
+            <a href="#products" class="hover:text-gray-200 font-semibold">محصولات</a>
+            <a href="#contact" class="hover:text-gray-200 font-semibold">تماس با ما</a>
+        </nav>
+    </div>
+</header>
+
+<!-- بخش اسلایدر -->
+<section id="home" class="relative pt-20 h-screen">
+    <img src="images/pexels-photo-45278.jpeg"
+         alt="شالیزار برنج"
+         class="w-full h-full object-cover brightness-75">
+    <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white px-4">
+        <h2 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">برنج ایرانی طبیعی و ممتاز</h2>
+        <p class="text-lg md:text-2xl mb-6 drop-shadow-lg">از مزارع شمال، مستقیم روی سفره‌ی شما 🌾</p>
+        <a href="#products" class="bg-white text-green-700 px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-gray-100 transition">مشاهده محصولات</a>
+    </div>
+</section>
+
+<!-- معرفی کوتاه -->
+<section class="max-w-5xl mx-auto py-16 text-center px-6">
+    <h3 class="text-3xl font-bold text-green-700 mb-6">کیفیت، طعم، اصالت</h3>
+    <p class="text-gray-700 text-lg leading-relaxed">
+        بهترین برنج‌های ایرانی از مزارع گیلان و مازندران، بدون مواد افزودنی، با دانه‌های یک‌دست و طعمی ماندگار.
+        تجربه خریدی لذت‌بخش و مطمئن.
+    </p>
+</section>
+
+<!-- محصولات -->
+<section id="products" class="bg-yellow-50 py-16">
+    <h3 class="text-center text-3xl font-bold text-green-700 mb-10">محصولات ویژه</h3>
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 px-6">
+
+        <!-- محصول 1 -->
+        <div class="bg-white rounded-3xl shadow-xl hover:scale-105 transform transition duration-300">
+            <img src="images/pexels-photo-263173.jpeg"
+                 class="rounded-t-3xl h-64 w-full object-cover" alt="برنج طارم">
+            <div class="p-6 text-center">
+                <h4 class="text-xl font-bold mb-2">برنج طارم ممتاز</h4>
+                <p class="text-gray-600 mb-3">دانه بلند، خوش‌پخت و معطر</p>
+                <p class="text-green-700 font-bold text-lg mb-4">۲۴۵٬۰۰۰ تومان / ۱۰ کیلو</p>
+                <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition">افزودن به سبد</button>
+            </div>
+        </div>
+
+        <!-- محصول 2 -->
+        <div class="bg-white rounded-3xl shadow-xl hover:scale-105 transform transition duration-300">
+            <img src="images/pexels-photo-263173.jpeg"
+                 class="rounded-t-3xl h-64 w-full object-cover" alt="برنج هاشمی">
+            <div class="p-6 text-center">
+                <h4 class="text-xl font-bold mb-2">برنج هاشمی</h4>
+                <p class="text-gray-600 mb-3">کیفیت عالی، پخت نرم و خوش‌طعم</p>
+                <p class="text-green-700 font-bold text-lg mb-4">۲۸۰٬۰۰۰ تومان / ۱۰ کیلو</p>
+                <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition">افزودن به سبد</button>
+            </div>
+        </div>
+
+        <!-- محصول 3 -->
+        <div class="bg-white rounded-3xl shadow-xl hover:scale-105 transform transition duration-300">
+            <img src="images/pexels-photo-263173.jpeg"
+                 class="rounded-t-3xl h-64 w-full object-cover" alt="برنج صدری">
+            <div class="p-6 text-center">
+                <h4 class="text-xl font-bold mb-2">برنج صدری دم‌سیاه</h4>
+                <p class="text-gray-600 mb-3">عطر و طعم بی‌نظیر شمال</p>
+                <p class="text-green-700 font-bold text-lg mb-4">۲۷۰٬۰۰۰ تومان / ۱۰ کیلو</p>
+                <button class="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition">افزودن به سبد</button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- تماس با ما -->
+<section id="contact" class="py-16 max-w-5xl mx-auto text-center px-6">
+    <h3 class="text-3xl font-bold text-green-700 mb-6">تماس با ما</h3>
+    <p class="text-gray-700 mb-4">📍 مازندران، فریدونکنار | ☎️ ۰۱۱-۳۴۵۶۷۸۹۰</p>
+    <a href="mailto:info@berenjshomal.ir" class="text-yellow-600 underline">info@berenjshomal.ir</a>
+</section>
+
+<!-- فوتر -->
+<footer class="bg-gray-900 text-gray-300 py-6 text-center">
+    <p>© ۲۰۲۵ | طراحی با ❤️ توسط مجتبی</p>
+</footer>
+
+</body>
+</html>
 
